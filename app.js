@@ -17,3 +17,9 @@ ctx.moveTo(75, 50);
 ctx.lineTo(100, 75);
 ctx.lineTo(100, 25);
 ctx.fill();
+
+
+//** Make a Rectangle **/
+ctx.fillStyle = 'yellow';
+// fillRect(x, y, width, height)
+ctx.fillRect(100, 100, 100, 100)
